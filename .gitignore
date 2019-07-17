@@ -7,7 +7,7 @@
 __pycache__/
 local_settings.py
 db.sqlite3
-media
+/media
 
 
 *.py[cod]
@@ -122,7 +122,7 @@ venv.bak/
 /site
 
 # mypy
-.mypy_cache/
+ .m-ypy_cache/
 .dmypy.json
 dmypy.json
 
@@ -132,3 +132,4 @@ dmypy.json
 
 
 venv
+/static
