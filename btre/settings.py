@@ -30,6 +30,12 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass
+    
 INSTALLED_APPS = [
     'pages.apps.PagesConfig',
     'listings.apps.ListingsConfig',
